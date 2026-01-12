@@ -4,7 +4,7 @@ This project is a Power BI dashboard that tracks **Sales Actual vs Sales Target*
 The goal is to help leaders quickly see whether targets are being met, identify gaps, and spot trends by month and by sales person.
 
 ## Preview
-https://github.com/JawadNayosh/Powerbi-sales-performance-dashboard/issues/1#issue-3804837602
+<img width="1403" height="788" alt="Image" src="https://github.com/user-attachments/assets/9c2d3251-9763-43fa-9bcd-4dfb3ea55747" />
 
 ## Key Insights (Example)
 - We met targets for **2 out of 14 months** (based on the current filter context).
@@ -50,4 +50,4 @@ RETURN
 COUNTROWS (
     FILTER ( MonthlyTable, [MonthlyActual] >= [MonthlyTarget] )
 )
-##Download the .pbix file from this repo.
+## Download the .pbix file from this repo.
